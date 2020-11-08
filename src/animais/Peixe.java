@@ -43,6 +43,10 @@ public class Peixe implements Animal{
         return "Peixe";
     }
     
+    public String getTipoDeAgua(){
+        return this.tipoDeAgua;
+    }
+    
     @Override
     public String getDetalhes(){
         
